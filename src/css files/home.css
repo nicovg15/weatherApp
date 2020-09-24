@@ -1,0 +1,58 @@
+.title-box{
+    margin-top: 70px;
+}
+
+.title{
+    font-size: 55px;
+    color: white;
+    text-shadow: 2px 2px 3px grey;
+}
+
+.icon-box{
+    margin-top: 100px;
+}
+
+.sun{
+    font-size: 100px;
+    padding-right: 60px;
+    color: goldenrod;
+}
+
+.cloud{
+    font-size: 100px;
+    padding-right: 60px;
+    color: rgb(194, 194, 194);
+}
+
+.rain{
+    font-size: 100px;
+    color: rgb(226, 220, 220);
+}
+
+@media only screen and (max-width: 600px) {
+    .title-box{
+        margin-top: 20px;
+    }
+
+    .title{
+        font-size: 50px;
+    }
+
+    .icon-box{
+        margin-top: 70px;
+    }
+
+    .sun{
+        font-size: 80px;
+        padding-right: 40px;
+    }
+
+    .cloud{
+        font-size: 80px;
+        padding-right: 40px;
+    }
+
+    .rain{
+        font-size: 80px;
+    }
+}
